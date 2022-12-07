@@ -1,12 +1,22 @@
 <mat-toolbar color="primary">
     <mat-toolbar-row>
+      <button mat-icon-button [matMenuTriggerFor]="menu"><mat-icon>menu</mat-icon>
+      </button>
+        <mat-menu #menu="matMenu">
+        <button mat-menu-item>Home</button>
+        <button mat-menu-item>Loja</button>
+</mat-menu>    
       <span>DOCERIA.APP</span>
     </mat-toolbar-row>
     <mat-toolbar-row>
       <span>LOJA</span>
       <span class="example-spacer"></span>
-      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon>
-      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example search icon">share</mat-icon>
+      <button mat-icon-button color="basic" aria-label="Example icon button with a heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <button mat-icon-button color="basic" aria-label="Example icon button with a open in new tab icon">
+        <mat-icon>open_in_new</mat-icon>
+      </button>
     </mat-toolbar-row>
   </mat-toolbar>
   
