@@ -1,0 +1,10 @@
+.mat-sort-header-container {
+    align-items: center;
+  }
+  .mat-sort{
+    display: block;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: large;
+  }

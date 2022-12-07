@@ -1,0 +1,31 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    float: right;
+    display: block;
+    margin-right: 20px;
+    margin-top: 20px;
+
+  }
+
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  td {
+    padding-right: 8px;
+  }
+  h3{
+    display: block;
+    font-size: larger;
+    margin-left: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    color: rgb(44, 40, 40);
+  }
+  button{
+    margin-left: 200px;
+    display: block;
+  }
